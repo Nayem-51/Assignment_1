@@ -321,3 +321,99 @@
   font-size: 0.9rem;
   color: #7f8c8d;
 }
+
+/* Contact Section */
+.contact-section {
+  background: #f8f9fa;
+  margin: 90px 150px 14px;
+  width: 1140px;
+  height: 632px;
+  display: flex;
+  align-items: center;
+}
+
+/* Container with 2 columns */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Left Side */
+.contact-content {
+  width: 528px;
+  height: 332px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-content h2 {
+  font-size: 4rem;
+  font-weight: 1000;
+  color: #2c3e50;
+}
+
+/* Right Side */
+.contact-form {
+  width: 497px;
+  height: 490px;
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Fields */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f8f9fa;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #3498db;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+  transform: scale(1.02);
+}
+
+/* Button */
+.contact-btn {
+  width: 100%; /* input field-er moto full width */
+  height: 50px; /* input field height-er moto */
+  background: linear-gradient(45deg, #27ae60, #2ecc71);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(46, 204, 113, 0.3);
+  transition: all 0.3s ease;
+  display: block;
+  margin: 0 auto; /* center horizontally */
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(46, 204, 113, 0.4);
+}
