@@ -161,7 +161,7 @@
     padding: 80px 0;
     display: flex;
     justify-content: center;
-    margin: 169px 150px 84px;
+    margin: 169px 160px 84px 160px;
     border-radius: 24px;
 }
 
@@ -374,7 +374,7 @@ h1 {
 
 .get-started-btn:hover {
     background-color: #5A4BA8;
-    color:#27ae60;
+    color:bisque;
 }
 
 .image-container {
