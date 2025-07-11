@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar and Banner Background */
+.navbar,
+.banner {
+    background-image: url('../Assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navbar Container */
+.nav-container {
+    max-width: 1140px;
+    height: 151px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+/* Signup Button Styling */
+.signup-btn {
+    width: 132px;
+    height: 48px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+}
+
+.signup-btn:hover {
+    background-color: orange;
+}
+
+/* Banner Section */
+.banner {
+    height: 698px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Banner Content Centering */
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Banner Text */
+.banner-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+/* Stay Focused Button */
+.stay-focused-btn {
+    width: 140px;
+    height: 45px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.stay-focused-btn:hover {
+    background-color: burlywood;
+}
